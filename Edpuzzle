@@ -1,0 +1,13 @@
+def dec2bin(n):
+  binValue = bin(n)
+  bs = str(binValue)
+  b = bs.replaced('0b','')
+  return b
+  
+def main():
+  bString = dec2bin(11)
+  print(11,"=",bString)
+  bString = dec2bin(23)
+  print(23,"=",bString)
+  
+main()
